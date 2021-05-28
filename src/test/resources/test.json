@@ -1,0 +1,11 @@
+{"id": 1, "amount": 1.23, "currency": "USD", "comment":  "оплата заказа"}
+{"amount": 1.23, "currency": "EUR", "comment":  "оплата заказа"}
+{"id": 2, "currency": "EUR", "comment":  "оплата заказа"}
+{"id": 3, "amount": 1.23, "comment":  "оплата заказа"}
+
+{"id": 4, "amount": 1.23, "currency": "USD"}
+{"id": 5}
+
+{"id": 6, "amount": "us", "currency": "USD", "comment":  "оплата заказа"}
+
+

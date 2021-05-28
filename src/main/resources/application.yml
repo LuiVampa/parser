@@ -1,0 +1,8 @@
+order:
+  json:
+    schema:
+      path: "classpath:schema.json"
+
+spring:
+  main:
+    banner-mode: off

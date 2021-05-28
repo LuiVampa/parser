@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Result",
+  "description": "Parsing result object",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The order identifier",
+      "type": "integer"
+    },
+    "amount": {
+      "description": "The order amount",
+      "type": "number"
+    },
+    "currency": {
+      "description": "The order currency",
+      "type": "string"
+    },
+    "comment": {
+      "description": "The order comment",
+      "type": "string"
+    },
+    "filename": {
+      "description": "Name of file",
+      "type": "string"
+    },
+    "line": {
+      "description": "File line number",
+      "type": "integer"
+    },
+    "result": {
+      "description": "Parsing result",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "amount",
+    "currency",
+    "comment"
+  ]
+}
